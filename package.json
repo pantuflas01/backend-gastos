@@ -1,13 +1,15 @@
 {
-  "name": "mamatrabajo",
+  "name": "backend-gastos",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend para escaneo de tickets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
 }
